@@ -1,4 +1,6 @@
-#Start
+# UNPACKING LIST PROBLEM: Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
+
+# Start
 
 # Define a function named 'unpack_list' that takes one argument 'lst'
 def unpack_list(lst):
@@ -48,5 +50,7 @@ def main():
 
 # Check if the script is being run directly
 if __name__ == "__main__":
-    # If true, call the 'main' function
+    # Call the 'main' function
     main()
+
+# End 
