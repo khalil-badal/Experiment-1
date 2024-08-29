@@ -1,10 +1,9 @@
+# EMOTICON PROBLEM: Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
+ 
 #Start
 
-#Start by creating a word replacement function
 def replace_words_with_emoticons(sentence):
-    """
-    Replace specific words in the sentence with emoticons.
-    """
+    
     # Define a dictionary that maps words to emoticons
     emoticons = {
         'smile': ':)',
@@ -34,9 +33,7 @@ def replace_words_with_emoticons(sentence):
     return new_sentence
 
 def main():
-    """
-    Main function to get user input and display the result.
-    """
+   
     # Ask the user to enter a sentence
     user_sentence = input("Please enter a sentence: ")
     
@@ -46,5 +43,7 @@ def main():
     # Display the result
     print("Sentence with emoticons:", result_sentence)
 
-# Run the main function
+# Call the main function
 main()
+
+# End
