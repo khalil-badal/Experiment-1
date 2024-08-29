@@ -1,5 +1,8 @@
-# Start
+# ALPHABET SOUP PROBLEM: Create a function that takes a string and returns a string with its letters
+# in alphabetical order.
 
+# Start    
+    
 # Define a function to sort a string with numbers first, followed by letters
 def sort_string_numbers_first(input_string):
     
